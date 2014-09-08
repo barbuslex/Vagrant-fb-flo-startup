@@ -21,7 +21,7 @@ var server = flo(
   './',
   {
     port: 8888,
-    host: 'local.dev',
+    host: 'local.dev', /* YOUR MACHINE NAME */
     verbose: false,
     glob: [
       '**/*.js',
@@ -32,7 +32,6 @@ var server = flo(
     pollingInterval: 500
   },
   function resolver(filepath, callback) {
-    console.log(filepath + " a été modifié");
     callback({
       resourceURL: filepath,
       reload: !filepath.match(/\.(css|js)$/),
