@@ -5,6 +5,9 @@ How to install fb-flo on startup in vagrant virtual machine
 
 **Tested on Linux Debian (x64)**
 
+> Prerequisites : vim edior installed on linux vitual machine.<br />
+> For install vim editor: ``sudo apt-get install vim``
+
 - Step 1: Install your vagrant machine (recommanded with: https://puphpet.com/)
 - Step 2: Launch your VM: ``vagrant up``
 - Step 3: Launch vagrant ssh: ``vagrant ssh``
