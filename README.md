@@ -11,8 +11,8 @@ How to install fb-flo on startup in vagrant virtual machine
 - Step 1: Install your vagrant machine (recommanded with: https://puphpet.com/)
 - Step 2: Launch your VM: ``vagrant up``
 - Step 3: Launch vagrant ssh: ``vagrant ssh``
-- Step 4: Install "forever" npm package in global mode: ``$ sudo npm install forever -g``
-- Step 5: Install "initd-forever" npm package in global mode: ``$ sudo npm install initd-forever -g``
+- Step 4: Install "forever" npm package in global mode: ``sudo npm install forever -g``
+- Step 5: Install "initd-forever" npm package in global mode: ``sudo npm install initd-forever -g``
 - Step 6: Go to you parent source folder (In my case, my sources folder is /var/www/local.dev/, the parent source folder is /var/www/): ``cd /var/www/``
 - Step 7: Create new file with vim and put this content inside : ``sudo vim flo.js``
 ```javascript
